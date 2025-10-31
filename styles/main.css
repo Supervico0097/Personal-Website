@@ -1,0 +1,69 @@
+.welcome{
+    background-color: #2E6B61;
+    height: 70vh;
+    padding-top: 70px;
+}
+
+
+
+.profile-photo > img{
+    border-radius: 50%;
+    height: 80%;
+    margin-top: 2%;
+    border: 2px solid black;
+}
+
+.profile-photo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 50%; 
+}
+
+.welcome-text{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-text>p{
+    text-align: center;
+      color:whitesmoke;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.welcome-text>a{
+    display: block;
+}
+
+.about-me{
+    background-color: #70b2b2;
+    height: auto;
+}
+
+body{
+      font-family: 'Fredoka', sans-serif;
+
+}
+
+.about-me-upper{
+    height: 40vh;
+    position: relative;
+}
+
+.cactus-image{
+    height:40vh;
+    width: 30vh;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+}
+
+.about-me-bottom .col{
+    height: 70vh;
+    width: 60vh;
+}
