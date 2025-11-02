@@ -52,6 +52,9 @@ body{
 .about-me-upper{
     height: 40vh;
     position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
 }
 
 .cactus-image{
@@ -67,3 +70,9 @@ body{
     height: 70vh;
     width: 60vh;
 }
+
+.about-me-title h1{
+    color: white;
+    font-size: 9vw;
+    margin-top: 4vw;
+    margin-left: 4vw;}
