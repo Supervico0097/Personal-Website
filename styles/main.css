@@ -1,6 +1,17 @@
+
+body{
+      font-family: 'Fredoka', sans-serif;
+       margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  width: 100%;
+
+}
+
+
 .welcome{
     background-color: #2E6B61;
-    height: 70vh;
+    height: auto;
     padding-top: 70px;
 }
 
@@ -8,9 +19,10 @@
 
 .profile-photo > img{
     border-radius: 50%;
-    height: 80%;
+    height: 120px;
     margin-top: 2%;
     border: 2px solid black;
+    margin-bottom: 10px;
 }
 
 .profile-photo{
@@ -44,35 +56,115 @@
     height: auto;
 }
 
-body{
-      font-family: 'Fredoka', sans-serif;
-
-}
 
 .about-me-upper{
-    height: 40vh;
+    height: auto;
     position: relative;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns:2fr 1fr;
 
 }
 
-.cactus-image{
-    height:40vh;
-    width: 30vh;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    
-}
 
-.about-me-bottom .col{
-    height: 70vh;
-    width: 60vh;
-}
 
 .about-me-title h1{
     color: white;
-    font-size: 9vw;
-    margin-top: 4vw;
-    margin-left: 4vw;}
+    font-size: 4vw;
+    position: relative;
+    left: 6%;
+    top: 10%;
+
+}
+
+.projects {
+  position: relative;
+  height: 80vh;
+  background: radial-gradient(circle at bottom, #052a35, #8ABEB9);
+  overflow: hidden; 
+}
+
+.projects-title{
+    color: white;
+    font-size: 4vw;
+    position: relative;
+    left: 4%;
+    top: 5%;
+}
+.bubble {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  background: rgba(106, 167, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+
+.contact-me{
+    background-color: #052a35;
+    color: white;
+    height: auto;
+}
+
+.contact-me h1{
+    padding-bottom: 15px;
+    font-size: 4vw;
+    position: relative;
+    left: 3%;
+    top: 5%;
+}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+
+@media (max-width: 768px) {
+
+
+
+}
+
